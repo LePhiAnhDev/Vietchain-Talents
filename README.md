@@ -1,24 +1,41 @@
-🚀 Hướng dẫn sử dụng
-📦 Cài đặt và chạy project:
+## 🚀 Hướng dẫn sử dụng
+
+### 📦 Cài đặt và chạy project:
+
 <div align="center">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
 </div>
-Step 1: 📂 Điều hướng đến thư mục backend
-bashcd backend
-Step 2: ⬇️ Cài đặt các dependencies
-bashnpm install
-Step 3: 🌐 Khởi chạy server backend
-bashnpm run dev
-Step 4: 📁 Điều hướng đến thư mục frontend
-bashcd ../frontend/
-Step 5: 🖥️ Mở web bằng extension
 
-💡 Khuyến nghị: Sử dụng Live Preview extension trong VS Code hoặc bất kỳ web server nào
-🔗 Hoặc: Mở trực tiếp file index.html trong trình duyệt
+**Step 1:** 📂 Điều hướng đến thư mục backend
+```bash
+cd backend
+```
 
+**Step 2:** ⬇️ Cài đặt các dependencies
+```bash
+npm install
+```
 
-📁 Cấu trúc Project
+**Step 3:** 🌐 Khởi chạy server backend
+```bash
+npm run dev
+```
+
+**Step 4:** 📁 Điều hướng đến thư mục frontend  
+```bash
+cd ../frontend/
+```
+
+**Step 5:** 🖥️ Mở web bằng extension
+> 💡 **Khuyến nghị:** Sử dụng **Live Preview** extension trong VS Code hoặc bất kỳ web server nào  
+> 🔗 **Hoặc:** Mở trực tiếp file `index.html` trong trình duyệt
+
+---
+
+## 📁 Cấu trúc Project
+
+```
 Project Root/
 │   .gitignore                    # Git ignore rules
 │   LICENSE                       # License file  
@@ -69,3 +86,4 @@ Project Root/
     └───js/                       # ⚡ JavaScript
             graph.js              # Graph visualization
             main.js               # Main app logic
+```
