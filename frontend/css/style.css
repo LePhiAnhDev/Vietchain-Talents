@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.graph-container {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#wallet-address {
+    font-family: monospace;
+}
+
+.anomaly-card {
+    margin-bottom: 15px;
+    border-left: 4px solid #dc3545;
+}
+
+.transaction-link {
+    color: #007bff;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.transaction-link:hover {
+    text-decoration: underline;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.address-cell {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
